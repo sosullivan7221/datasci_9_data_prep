@@ -1,0 +1,24 @@
+condition,condition_ordinal
+Adult respiratory distress syndrome,0
+All other conditions and causes (residual),1
+Alzheimer disease,2
+COVID-19,3
+Cardiac arrest,4
+Cardiac arrhythmia,5
+Cerebrovascular diseases,6
+Chronic lower respiratory diseases,7
+Diabetes,8
+Heart failure,9
+Hypertensive diseases,10
+Influenza and pneumonia,11
+"Intentional and unintentional injury, poisoning, and other adverse events",12
+Ischemic heart disease,13
+Malignant neoplasms,14
+Obesity,15
+Other diseases of the circulatory system,16
+Other diseases of the respiratory system,17
+Renal failure,18
+Respiratory arrest,19
+Respiratory failure,20
+Sepsis,21
+Vascular and unspecified dementia,22

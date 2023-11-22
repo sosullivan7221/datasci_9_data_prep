@@ -1,0 +1,13 @@
+condition_group,condition_group_ordinal
+All other conditions and causes (residual),0
+Alzheimer disease,1
+COVID-19,2
+Circulatory diseases,3
+Diabetes,4
+"Intentional and unintentional injury, poisoning, and other adverse events",5
+Malignant neoplasms,6
+Obesity,7
+Renal failure,8
+Respiratory diseases,9
+Sepsis,10
+Vascular and unspecified dementia,11
