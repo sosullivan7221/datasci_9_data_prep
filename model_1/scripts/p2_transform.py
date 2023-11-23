@@ -43,12 +43,12 @@ df_mapping_condition = pd.DataFrame(enc.categories_[0], columns=['condition'])
 df_mapping_condition['condition_ordinal'] = df_mapping_condition.index
 df_mapping_condition.to_csv('/home/sean_osullivan/datasci_9_data_prep/model_1/data/processed/mapping_condition.csv', index=False)
 
-# Ordinal Encoding on condition_group
+# Ordinal Encoding on age_group
 enc = OrdinalEncoder()
 enc.fit(df[['age_group']])
 df['age_group'] = enc.transform(df[['age_group']])
 
-# Dataframe with mapping on condition_group
+# Dataframe with mapping on age_group
 df_mapping_age_group = pd.DataFrame(enc.categories_[0], columns=['age_group'])
 df_mapping_age_group['age_group_ordinal'] = df_mapping_age_group.index
 df_mapping_age_group.to_csv('/home/sean_osullivan/datasci_9_data_prep/model_1/data/processed/mapping_age_group.csv', index=False)
